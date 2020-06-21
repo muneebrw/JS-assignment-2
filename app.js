@@ -497,3 +497,80 @@
 // document.write("<br><br>Net Amount Payable (within Due Date) " + net)
 // document.write("<br>Late Payment Surcharge: " + late )
 // document.write("<br>Gross Amount Payable (after Due Date): " + Gross )
+
+// chap 35-38
+
+// // task 1
+
+// function showDate()
+// {
+//     var d = new Date()
+//     document.write("<br>" + d)
+// }
+
+// showDate()
+
+// // task 2
+
+// function greet(f,l)
+// {
+//     document.write("<br>Good day " + f + " " + l)   
+// }
+
+// greet('muneeb','raza')
+
+// // task 3
+
+// function sum(a,b)
+// {
+//     c = a + b
+//     document.write("<br>" + c)      
+// }
+
+// sum(77,23)
+
+// // task 4
+
+// function calc(a,op,b)
+// {
+//     if(op === '+')
+//     {
+//         c = a + b
+//         document.write(c)
+//     }
+//     else if(op === '-')
+//     {
+//         c = a - b
+//         document.write(c)
+//     }
+//     else if(op === '*')
+//     {
+//         c = a * b
+//         document.write(c)
+//     }
+//     else if(op === '/')
+//     {
+//         c = a / b
+//         document.write(c)
+//     }
+//     else if(op === '%')
+//     {
+//         c = a % b
+//         document.write("<br>" + c)
+//     }
+// }
+
+// calc(4,'%',8)
+
+// // task 5
+
+// function sqr(x)
+// {
+//     y = Math.pow(x,2)
+//     document.write("<br>" + y)
+// }
+
+// sqr(3)
+
+// task 6
+
