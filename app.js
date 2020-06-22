@@ -572,5 +572,86 @@
 
 // sqr(3)
 
-// task 6
+// // task 6
 
+// function fact(a)
+// {   
+//     var b = a
+//     for(var i = a-1; i > 0; i--)
+//     {
+//         var b = b * i
+        
+//     }
+//     document.write("<br>factorial of " + "<b>" + a + "</b>" + " is " + "<b>" + b + "</b>")
+// }
+
+// fact(7)
+
+// // task 7
+
+// function count(a,b)
+// {
+//     if(a < b){
+//     for(i = a; i <= b; i++)
+//     {
+//         document.write("<br>" + i)
+//     }}
+//     else if(a > b){
+//     for(i = a; i >= b; i--)
+//     {
+//         document.write("<br>" + i)
+//     }}
+// }
+
+// count(2,29)
+
+// // task 8
+
+// function  calculateHypotenuse(b,p)
+// {
+//     function calculateSquare(x)
+//     {
+//         y = Math.pow(x,2)
+//      return y   
+//     }
+
+//     h = calculateSquare(b) + calculateSquare(p)
+//     h = calculateSquare(h)
+//     c
+// }
+
+// calculateHypotenuse(2,2)
+
+// // task 9
+
+// function area(w,h)
+// {
+//     a = w*h
+//     return a
+ 
+// }
+
+// var A = area(5,5)
+// document.write("<br>area: " + A)
+
+// task 10
+
+function pal(a)
+{
+    var a
+    for(var i = 0; i < a.length; i++ )
+    {
+        if(a[i] === a[a.length-1-i])
+        {
+            var flag += 1
+        }
+    }
+    if(flag === a.length)
+    {
+        document.write("<br> palindrome")
+    }
+    else{
+        document.write("<br>not palindrome")
+}
+
+pal("madam")
