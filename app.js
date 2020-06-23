@@ -202,9 +202,10 @@
 // // task 16
 
 // var university = 'University of Karachi'
-// for(i = 0; i < university.length; i++)
+// var arr = university.split('')
+// for(i = 0; i < arr.length; i++)
 // {
-// document.write("<br>" + university[i])
+// document.write("<br>" + arr[i])
 // }
 
 // // task 17
@@ -634,24 +635,110 @@
 // var A = area(5,5)
 // document.write("<br>area: " + A)
 
-// task 10
+// // task 10
 
-function pal(a)
-{
-    var a
-    for(var i = 0; i < a.length; i++ )
-    {
-        if(a[i] === a[a.length-1-i])
-        {
-            var flag += 1
-        }
-    }
-    if(flag === a.length)
-    {
-        document.write("<br> palindrome")
-    }
-    else{
-        document.write("<br>not palindrome")
-}
+// function pal(a)
+// {
+//     var b=0
+//     for(var i = 0; i < a.length; i++ )
+//     {
+//         if(a[i] === a[a.length-1-i])
+//         {
+//             b++
+//             var flag = b
+//         }
+//     }
+//     if(flag === a.length)
+//     {
+//         document.write("<br> palindrome")
+//     }
+//     else{
+//         document.write("<br>not palindrome")}
+// }
 
-pal("madam")
+// pal('madam')
+
+// // task 11
+
+// function upp(a)
+// {
+//     var b = a.split(" ")
+//     var c = []
+//     for(var i=0; i<b.length; i++)
+//     {
+//         c.push(b[i].charAt(0).toUpperCase() + b[i].slice(1) )
+//         document.write(" " + c[i])
+//     }
+    
+    
+// }
+
+// upp("the quick brown fox")
+
+// // task 12
+
+// function long(text)
+// {
+
+//     var arrOfText = text.split(' ')
+//     for(var i = 0; i < arrOfText.length; i++)
+//     {
+//         for(var j = i+1; j < arrOfText.length; j++)
+//         {
+//             if(arrOfText[i].length < arrOfText[j].length)
+//             {
+//                 var temp = arrOfText[j]
+//                 arrOfText[j] = arrOfText[i]
+//                 arrOfText[i] = temp
+//             }
+//         }
+        
+//     }
+//     var longest = arrOfText[0]
+//     document.write("<br>longest text is: " + longest)
+// }
+
+// long( "Web Development Tutorial")
+
+// // task 13
+
+// function numOfOccurences(a,b)
+// {
+
+//     var occ = 0
+//     a = a.toLowerCase()
+//     for(i = 0; i < a.length; i++ )
+//     {
+//         if(a[i] === b)
+//         {
+//             occ += 1
+//         }
+//     }
+//     if(occ === 0)
+//     {
+//         document.write("<br>letter not found ")   
+//     }
+//     else{
+//         document.write("<br>number of occurences: " + occ)
+//     }
+// }
+
+// numOfOccurences('heybrother','e')
+
+// // task 14
+
+// function calcCircumference(r)
+// {
+//     var c = 2*(3.142)*r
+//     document.write("<br>Circumference is: " + c)
+// }
+
+// calcCircumference(3)
+
+// function calcArea(r)
+// {
+//     var a = (3.142)*Math.pow(r,2)
+//     document.write("<br>Area is circle: " + a)
+// }
+
+// calcArea(2)
